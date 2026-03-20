@@ -1,0 +1,4 @@
+origin	https://github.com/tentey45/AGED_Clone_V2.git (fetch)
+origin	https://github.com/tentey45/AGED_Clone_V2.git (push)
+  develop
+* main

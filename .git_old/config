@@ -1,0 +1,14 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	symlinks = false
+	ignorecase = true
+[branch "develop"]
+	vscode-merge-base = origin/develop
+[branch "main"]
+	vscode-merge-base = origin/main
+[remote "origin"]
+	url = https://github.com/tentey45/AGED_Clone_V2.git
+	fetch = +refs/heads/*:refs/remotes/origin/*

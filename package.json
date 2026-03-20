@@ -1,0 +1,20 @@
+{
+  "name": "ai-doc-generator-root",
+  "version": "1.0.0",
+  "description": "Root manager for AI Document Generator (FastAPI + React)",
+  "scripts": {
+    "frontend:install": "cd frontend && npm install",
+    "frontend:dev": "cd frontend && npm run dev",
+    "backend:install": "pip install -r requirements.txt",
+    "backend:dev": "uvicorn backend.main:app --reload --port 8000 --host 127.0.0.1",
+    "setup": "npm run frontend:install && npm run backend:install",
+    "dev": "echo \"\n\u001b[32m>>> To start the project, open TWO terminals:\u001b[0m\n\n\u001b[34mTerminal 1:\u001b[0m npm run static:dev\n\u001b[34mTerminal 2:\u001b[0m npm run backend:dev\n\" && exit 1",
+    "static:dev": "npm run frontend:dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "vite": "^8.0.1"
+  }
+}
